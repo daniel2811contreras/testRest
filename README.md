@@ -15,6 +15,11 @@ Documentation for the framework can be found on the [Lumen website](https://lume
 
 Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
+## Config
+- config .env
+- php artisan migrate
+- php -S localhost:8000 -t public
+
 ## Security Vulnerabilities
 
 If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
@@ -25,3 +30,5 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 # testRest
 # testRest
 # testRest
+
+
