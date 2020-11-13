@@ -17,10 +17,10 @@ class CreateRestaurantsTable extends Migration
             $table->engine = 'InnoDB';
             $table->id();
             $table->string('Nombre', 255);
-            $table->string('Descripción', 255);
+            $table->string('Descripcion', 255);
             $table->string('Direccion', 255);
             $table->string('Ciudad', 255);
-            $table->string('Url_foto', 255);
+            $table->text('Url_foto');
             $table->timestamps();
             $table->softDeletes();
         });
